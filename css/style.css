@@ -202,3 +202,11 @@ footer .colonne a:hover {
 		width: 80%;
 	}
 }
+
+
+@media screen and (max-width: 400px) {
+	.page-content header {
+		margin-top: 50%;
+		max-width: 100%;
+	}
+}
