@@ -1,388 +1,720 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,  shrink-to-fit=no">
-    <meta name="description" content="Page de portfolio">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,  shrink-to-fit=no"
+    />
+    <meta name="description" content="Page de portfolio" />
     <title>Portfolio - Jean Oldor Saintus</title>
-    <link rel="shorcut icon" href="img-favicon-.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/style.css" media="all">
-</head>
+    <link rel="shorcut icon" href="img-favicon-.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" media="all" />
+  </head>
 
-
-<body>
+  <body>
     <header>
-        <nav class="navbar fixed-top navbar-expand-lg bg-light">
-            <div class="container-fluid">
-                <!-- <a class="navbar-brand" href="#"> <img src="./img/img-logo-tag.png" /> Jean Oldor Saintus</a> -->
-                <a class="navbar-brand" href="#"> <img class="logo-photo" src="./img/Jean-logo.jpg" /> Jean Oldor Saintus</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <!-- <li class="nav-item">
+      <nav class="navbar fixed-top navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand" href="#"> <img src="./img/img-logo-tag.png" /> Jean Oldor Saintus</a> -->
+          <a class="navbar-brand" href="#">
+            <img class="logo-photo" src="./img/Jean-logo.jpg" /> Jean Oldor
+            Saintus</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <!-- <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Accueil</a>
                         </li> -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">A propos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#mes-projets">Mes projets</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="CV-JOS.pdf" target="_blank">CV</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contacts">Contacts</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="dark-light-mode" onclick="changeDarkMode()" href="#"><span>Dark mode</span></a>
-                        </li>
-                 
-                        
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
+              <li class="nav-item">
+                <a class="nav-link" href="#">A propos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#mes-projets">Mes projets</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="CV-JOS.pdf" target="_blank">CV</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacts">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="dark-light-mode"
+                  onclick="changeDarkMode()"
+                  href="#"
+                  ><span>Dark mode</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <main>
+      <section class="page-content" id="a-propos">
+        <header>
+          <h1>
+            Bonjour, je suis Jean Oldor Saintus, développeur web front-end
+            junior
+          </h1>
+          <p>
+            Très passionné par le développement web, dynamique et motivé à
+            travailler seul ou en équipe pour développer des applications web.
+            <br />
+            Je travaille présentement comme agent technique dans une compagnie
+            de luminaires depuis 2014. <br />
+            Et je suis une formation en développement web front-end au Cégep de
+            Trois-Rivières. <br />
 
-        <section class="page-content" id="a-propos">
-            <header>
-                <h1> Bonjour, je suis Jean Oldor Saintus, développeur web front-end junior</h1>
-                <p>
-                    Très passionné par le développement web, dynamique et motivé à travailler seul ou en équipe pour
-                    développer des applications web. <br>
-                    Je travaille présentement comme agent technique dans une compagnie de luminaires depuis 2014. <br> Et je suis une formation en développement web front-end au Cégep de Trois-Rivières. <br> 
-                   
-                    J'aimerais m'y orienter pour contribuer au développement de cette nouvelle technologie et avoir plus d'expériences dans ce domaine que j'aime beaucoup. <br>
-                    Je me forme continuellement pour trouver toutes les nouveautés de la technologie web et des solutions aux problèmes qui sont liés au développement web afin d'adapter les meilleures solutions techniques possibles à mes projets. <br> 
-                    C'est un plaisir pour moi de coder et de résoudre des problèmes. 
+            J'aimerais m'y orienter pour contribuer au développement de cette
+            nouvelle technologie et avoir plus d'expériences dans ce domaine que
+            j'aime beaucoup. <br />
+            Je me forme continuellement pour trouver toutes les nouveautés de la
+            technologie web et des solutions aux problèmes qui sont liés au
+            développement web afin d'adapter les meilleures solutions techniques
+            possibles à mes projets. <br />
+            C'est un plaisir pour moi de coder et de résoudre des problèmes.
+          </p>
 
-                </p>
-             
+          <a href="CV-JOS.pdf" target="_blank">Voir mon CV</a>
+        </header>
 
-                    <a href="CV-JOS.pdf"  target="_blank">Voir mon CV</a>
-            
-            </header>
-
-            <section class="presentation-image">
-                <img src="img/img-programming.png" alt="Programming image" />
-            </section>
-
-            <section  class="projects-section" id="mes-projets">
-                <h1>Projets réalisés</h1>
-                <div class="projects">
-                    <div class="project">
-                        <h4>Site web responsive multi pages BURGER SHOP</h4>
-                        <p class="description">
-                            Création d'un site web responsive multi pages avec HTML et CSS  <br>
-
-                            <a href="https://github.com/joslsinfo/TP3-Saintus-Jean-Oldor.git" target="_blank">Accéder au
-                                contenu du projet</a> <br>
-                            <a href="https://joslsinfo.github.io/TP3-Saintus-Jean-Oldor/" target="_blank">Visualiser ce
-                                projet en ligne</a>
-                        </p>
-                        <p class="dates">&copy; 2021 - 2022</p>
-                    </div>
-                    <div class="project">
-                        <h4>Site web responsive multi pages REFUGE MIMINE avec HTML, SASS et BEM en utilisant workflows git en groupe  </h4>
-                        <p class="description">
-                            Réalisation d'un site web responsive multi pages REFUGE MIMINE avec HTML et SASS en utilisant workflows
-                            git en équipe
-                            <br>
-                            <a href="https://github.com/joslsinfo/tp1-integration-web-2.git" target="_blank">
-                                Accéder au contenu du projet </a> <br>
-                            <a href="https://joslsinfo.github.io/tp1-integration-web-2/" target="_blank">Visualiser ce
-                                projet web en ligne</a>
-                        </p>
-                        <p class="dates">&copy; 2022</p>
-                    </div>
-                    <div class="project">
-                        <h4>Projet en Javascript sur les conversions de devise </h4>
-                        <p class="description">
-                            Réalisation d'un site en javascript sur les conversions de devise. <br>
-                            <a href="https://github.com/joslsinfo/projet-final-tech-prog-web-1.git" target="_blank">
-                                Accéder au contenu du projet</a> <br>
-                            <a href="https://joslsinfo.github.io/projet-final-tech-prog-web-1/"
-                                target="_blank">Visualiser ce projet en ligne</a>
-
-                        </p>
-                        <p class="dates">&copy; 2022</p>
-                    </div>
-                    <div class="project">
-                        <h4>Site web responsive sur une oeuvre <span class="oeuvre">cinématographique </span></h4>
-                        <p class="description">
-                            Création d'un site web responsive avec HTML, SASS et Bootstrap sur une oeuvre
-                            cinématographique (THE KARATE KID)
-                            <br>
-                            <a href="https://github.com/joslsinfo/TP2-Saintus-Jean-Oldor.git" target="_blank"> Accéder
-                                au contenu du projet</a> <br>
-                            <a href="https://joslsinfo.github.io/TP2-Saintus-Jean-Oldor/" target="_blank">Explorer ce
-                                projet en ligne</a>
-                        </p>
-                        <p class="dates">&copy; 2022</p>
-                    </div>
-                    <div class="project">
-                        <h4>Site web responsive multi pages COWORKING </h4>
-                        <p class="description">
-                            Réalisation d'un site web responsive et PWA avec service worker et le manifest utilisant
-                            HTML, SASS, BEM, Bootstrap, JavaScript <br>
-                            <a href="https://github.com/joslsinfo/tp3-projetfinal-Saintus-Jean-Oldor.git"
-                                target="_blank"> Accéder au contenu du projet</a> <br>
-                            <a href="https://joslsinfo.github.io/tp3-projetfinal-Saintus-Jean-Oldor/"
-                                target="_blank">Visualiser ce projet en ligne</a>
-
-                        </p>
-                        <p class="dates">&copy; 2022</p>
-                    </div>
-                    <div class="project">
-                        <h4>Projet en react sur Star wars API</h4>
-                        <p class="description">
-                            Création d'une application avec la librairie react et react router pour aller chercher de l'information sur
-                            star wars avec aussi utilisation formik, redux, firebase <br>
-                            <a href="https://github.com/joslsinfo/projet2-react-swapi-app.git" target="_blank"> Accéder
-                                au contenu du projet</a> <br>
-
-                        </p>
-                        <p class="dates">&copy; 2022</p>
-                    </div>
-                </div>
-            </section>
-
-
-
-            <section  class="title-projects">
-                <div class="container">
-                    <h2>Vues des projets</h2>
-                    <div class="row mb-3">
-                        <div class="col-12 col-md-6 col-lg-3 col-xl-3 ">
-                            <h2 class="projects-title">BURGER SHOP</h2>
-                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                         <a href="https://joslsinfo.github.io/TP3-Saintus-Jean-Oldor/" target="_blank">   <img src="./images/fille-burger.png" class="d-block w-100"
-                                            alt="image burger shop"></a>
-                                    </div>
-                                    <div class="carousel-item">
-                              <a href="https://joslsinfo.github.io/TP3-Saintus-Jean-Oldor/" target="_blank">   <img src="./images/beign-bleuet.png" class="d-block w-100" alt="image burger shop"> </a>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <a href="https://joslsinfo.github.io/TP3-Saintus-Jean-Oldor/" target="_blank">    <img src="./images/table-dessus.png" class="d-block w-100"
-                                            alt="image burger shop"> </a>
-                                    </div>
-                                    <div class="carousel-item">
-                                       <a href="https://joslsinfo.github.io/TP3-Saintus-Jean-Oldor/" target="_blank">   <img src="./images/terrasse.png" class="d-block w-100"
-                                            alt="image burger shop"> </a>
-                                    </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button"
-                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button"
-                                    data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
-                            </div>
-                        </div>
-    
-    
-    
-    
-                        <!-- ======================== -->
-                        <div class="col-12 col-md-6 col-lg-3 col-xl-3 ">
-                            <h2 class="projects-title">REFUGE MIMINE</h2>
-                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <a href="https://joslsinfo.github.io/tp1-integration-web-2/" target="_blank">  <img src="./images/chatitalien.jpg" class="d-block w-100"
-                                            alt="image refuge mimine"> </a>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <a href="https://joslsinfo.github.io/tp1-integration-web-2/" target="_blank"> <img src="./images/chatarmenien.jpg" class="d-block w-100"
-                                            alt="image refuge mimine"> </a>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <a href="https://joslsinfo.github.io/tp1-integration-web-2/" target="_blank">  <img src="./images/Thewisdomofcatsisinfinitelysuperior.jpg" class="d-block w-100"
-                                            alt="image refuge mimine"> </a>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <a href="https://joslsinfo.github.io/tp1-integration-web-2/" target="_blank">  <img src="./images/chat-coussin.jpg" class="d-block w-100"
-                                            alt="image refuge mimine"> </a>
-                                    </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button"
-                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button"
-                                    data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
-                            </div>
-                        </div>
-                        <!-- ======================== -->
-    
-                        <!-- ======================== -->
-                        <div class="col-12 col-md-6 col-lg-3 col-xl-3 ">
-                            <h2 class="projects-title">THE KARATE KID</h2>
-                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                       <a href="https://joslsinfo.github.io/TP2-Saintus-Jean-Oldor/" target="_blank">  <img src="./images/jaden-smith-principal.jpg" class="d-block w-100"
-                                            alt="image karate kid"> </a>
-                                    </div>
-                                    <div class="carousel-item">
-                                    <a href="https://joslsinfo.github.io/TP2-Saintus-Jean-Oldor/" target="_blank"><img src="./images/jcjs.jpg" class="d-block w-100" alt="image karate kid"> </a>
-                                    </div>
-                                    <div class="carousel-item">
-                                     <a href="https://joslsinfo.github.io/TP2-Saintus-Jean-Oldor/" target="_blank"> <img src="./images/wenwen-han.jpg" class="d-block w-100" alt="image karate kid"> </a>
-                                    </div>
-                                    <div class="carousel-item">
-                                  <a href="https://joslsinfo.github.io/TP2-Saintus-Jean-Oldor/" target="_blank">  <img src="./images/Zhenwei-wang-cheng.jpg" class="d-block w-100" alt="image karate kid"> </a>
-                                    </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button"
-                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button"
-                                    data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
-                            </div>
-                        </div>
-                        <!-- ======================== -->
-                        <!-- ======================== -->
-                        <div class="col-12 col-md-6 col-lg-3 col-xl-3 ">
-                            <h2 class="projects-title">JOS COWORKING</h2>
-                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                      <a href="https://joslsinfo.github.io/tp3-projetfinal-Saintus-Jean-Oldor/"
-                                target="_blank">  <img src="./images/image-coworkers.jpg" class="d-block w-100" alt="image corworker"> </a> 
-                                    </div>
-                                    <div class="carousel-item">
-                                       <a href="https://joslsinfo.github.io/tp3-projetfinal-Saintus-Jean-Oldor/"
-                                target="_blank"> <img src="./images/img-bureauvirtuel2.png" class="d-block w-100" alt="image corworker"> </a>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <a href="https://joslsinfo.github.io/tp3-projetfinal-Saintus-Jean-Oldor/"
-                                target="_blank"><img src="./images/img-salledereunion.png" class="d-block w-100" alt="image corworker">  </a> 
-                                   </div>
-                                    <div class="carousel-item">
-                                       <a href="https://joslsinfo.github.io/tp3-projetfinal-Saintus-Jean-Oldor/"
-                                target="_blank"> <img src="./images/img13.JPG" class="d-block w-100" alt="image corworker">   </a> 
-                                  </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button"
-                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button"
-                                    data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
-                            </div>
-                        </div>
-                        <!-- ======================== -->
-                    </div>
-                </div>
-            </section>
-
+        <section class="presentation-image">
+          <img src="img/img-programming.png" alt="Programming image" />
         </section>
-      
 
+        <section class="projects-section" id="mes-projets">
+          <h1>Projets réalisés</h1>
+          <div class="projects">
+            <div class="project">
+              <h4>Site web responsive multi pages BURGER SHOP</h4>
+              <p class="description">
+                Création d'un site web responsive multi pages avec HTML et CSS
+                <br />
+
+                <a
+                  href="https://github.com/joslsinfo/TP3-Saintus-Jean-Oldor.git"
+                  target="_blank"
+                  >Accéder au contenu du projet</a
+                >
+                <br />
+                <a
+                  href="https://joslsinfo.github.io/TP3-Saintus-Jean-Oldor/"
+                  target="_blank"
+                  >Visualiser ce projet en ligne</a
+                >
+              </p>
+              <p class="dates">&copy; 2021 - 2022</p>
+            </div>
+            <div class="project">
+              <h4>
+                Site web responsive multi pages REFUGE MIMINE avec HTML, SASS et
+                BEM en utilisant workflows git en groupe
+              </h4>
+              <p class="description">
+                Réalisation d'un site web responsive multi pages REFUGE MIMINE
+                avec HTML et SASS en utilisant workflows git en équipe
+                <br />
+                <a
+                  href="https://github.com/joslsinfo/tp1-integration-web-2.git"
+                  target="_blank"
+                >
+                  Accéder au contenu du projet
+                </a>
+                <br />
+                <a
+                  href="https://joslsinfo.github.io/tp1-integration-web-2/"
+                  target="_blank"
+                  >Visualiser ce projet web en ligne</a
+                >
+              </p>
+              <p class="dates">&copy; 2022</p>
+            </div>
+            <div class="project">
+              <h4>Projet en Javascript sur les conversions de devise</h4>
+              <p class="description">
+                Réalisation d'un site en javascript sur les conversions de
+                devise. <br />
+                <a
+                  href="https://github.com/joslsinfo/projet-final-tech-prog-web-1.git"
+                  target="_blank"
+                >
+                  Accéder au contenu du projet</a
+                >
+                <br />
+                <a
+                  href="https://joslsinfo.github.io/projet-final-tech-prog-web-1/"
+                  target="_blank"
+                  >Visualiser ce projet en ligne</a
+                >
+              </p>
+              <p class="dates">&copy; 2022</p>
+            </div>
+            <div class="project">
+              <h4>
+                Site web responsive sur une oeuvre
+                <span class="oeuvre">cinématographique </span>
+              </h4>
+              <p class="description">
+                Création d'un site web responsive avec HTML, SASS et Bootstrap
+                sur une oeuvre cinématographique (THE KARATE KID)
+                <br />
+                <a
+                  href="https://github.com/joslsinfo/TP2-Saintus-Jean-Oldor.git"
+                  target="_blank"
+                >
+                  Accéder au contenu du projet</a
+                >
+                <br />
+                <a
+                  href="https://joslsinfo.github.io/TP2-Saintus-Jean-Oldor/"
+                  target="_blank"
+                  >Explorer ce projet en ligne</a
+                >
+              </p>
+              <p class="dates">&copy; 2022</p>
+            </div>
+            <div class="project">
+              <h4>Site web responsive multi pages COWORKING</h4>
+              <p class="description">
+                Réalisation d'un site web responsive et PWA avec service worker
+                et le manifest utilisant HTML, SASS, BEM, Bootstrap, JavaScript
+                <br />
+                <a
+                  href="https://github.com/joslsinfo/tp3-projetfinal-Saintus-Jean-Oldor.git"
+                  target="_blank"
+                >
+                  Accéder au contenu du projet</a
+                >
+                <br />
+                <a
+                  href="https://joslsinfo.github.io/tp3-projetfinal-Saintus-Jean-Oldor/"
+                  target="_blank"
+                  >Visualiser ce projet en ligne</a
+                >
+              </p>
+              <p class="dates">&copy; 2022</p>
+            </div>
+            <div class="project">
+              <h4>Projet en react sur Star wars API</h4>
+              <p class="description">
+                Création d'une application avec la librairie react et react
+                router pour aller chercher de l'information sur star wars avec
+                aussi utilisation formik, redux, firebase <br />
+                <a
+                  href="https://github.com/joslsinfo/projet2-react-swapi-app.git"
+                  target="_blank"
+                >
+                  Accéder au contenu du projet</a
+                >
+                <br />
+              </p>
+              <p class="dates">&copy; 2022</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="title-projects">
+          <div class="container">
+            <h2>Vues des projets</h2>
+            <div class="row mb-3">
+              <div class="col-12 col-md-6 col-lg-3 col-xl-3">
+                <h2 class="projects-title">BURGER SHOP</h2>
+                <div
+                  id="carouselExampleControls"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <a
+                        href="https://joslsinfo.github.io/TP3-Saintus-Jean-Oldor/"
+                        target="_blank"
+                      >
+                        <img
+                          src="./images/fille-burger.png"
+                          class="d-block w-100"
+                          alt="image burger shop"
+                      /></a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="https://joslsinfo.github.io/TP3-Saintus-Jean-Oldor/"
+                        target="_blank"
+                      >
+                        <img
+                          src="./images/beign-bleuet.png"
+                          class="d-block w-100"
+                          alt="image burger shop"
+                        />
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="https://joslsinfo.github.io/TP3-Saintus-Jean-Oldor/"
+                        target="_blank"
+                      >
+                        <img
+                          src="./images/table-dessus.png"
+                          class="d-block w-100"
+                          alt="image burger shop"
+                        />
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="https://joslsinfo.github.io/TP3-Saintus-Jean-Oldor/"
+                        target="_blank"
+                      >
+                        <img
+                          src="./images/terrasse.png"
+                          class="d-block w-100"
+                          alt="image burger shop"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- ======================== -->
+              <div class="col-12 col-md-6 col-lg-3 col-xl-3">
+                <h2 class="projects-title">REFUGE MIMINE</h2>
+                <div
+                  id="carouselExampleControls"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <a
+                        href="https://joslsinfo.github.io/tp1-integration-web-2/"
+                        target="_blank"
+                      >
+                        <img
+                          src="./images/chatitalien.jpg"
+                          class="d-block w-100"
+                          alt="image refuge mimine"
+                        />
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="https://joslsinfo.github.io/tp1-integration-web-2/"
+                        target="_blank"
+                      >
+                        <img
+                          src="./images/chatarmenien.jpg"
+                          class="d-block w-100"
+                          alt="image refuge mimine"
+                        />
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="https://joslsinfo.github.io/tp1-integration-web-2/"
+                        target="_blank"
+                      >
+                        <img
+                          src="./images/Thewisdomofcatsisinfinitelysuperior.jpg"
+                          class="d-block w-100"
+                          alt="image refuge mimine"
+                        />
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="https://joslsinfo.github.io/tp1-integration-web-2/"
+                        target="_blank"
+                      >
+                        <img
+                          src="./images/chat-coussin.jpg"
+                          class="d-block w-100"
+                          alt="image refuge mimine"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <!-- ======================== -->
+
+              <!-- ======================== -->
+              <div class="col-12 col-md-6 col-lg-3 col-xl-3">
+                <h2 class="projects-title">THE KARATE KID</h2>
+                <div
+                  id="carouselExampleControls"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <a
+                        href="https://joslsinfo.github.io/TP2-Saintus-Jean-Oldor/"
+                        target="_blank"
+                      >
+                        <img
+                          src="./images/jaden-smith-principal.jpg"
+                          class="d-block w-100"
+                          alt="image karate kid"
+                        />
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="https://joslsinfo.github.io/TP2-Saintus-Jean-Oldor/"
+                        target="_blank"
+                        ><img
+                          src="./images/jcjs.jpg"
+                          class="d-block w-100"
+                          alt="image karate kid"
+                        />
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="https://joslsinfo.github.io/TP2-Saintus-Jean-Oldor/"
+                        target="_blank"
+                      >
+                        <img
+                          src="./images/wenwen-han.jpg"
+                          class="d-block w-100"
+                          alt="image karate kid"
+                        />
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="https://joslsinfo.github.io/TP2-Saintus-Jean-Oldor/"
+                        target="_blank"
+                      >
+                        <img
+                          src="./images/Zhenwei-wang-cheng.jpg"
+                          class="d-block w-100"
+                          alt="image karate kid"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <!-- ======================== -->
+              <!-- ======================== -->
+              <div class="col-12 col-md-6 col-lg-3 col-xl-3">
+                <h2 class="projects-title">JOS COWORKING</h2>
+                <div
+                  id="carouselExampleControls"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <a
+                        href="https://joslsinfo.github.io/tp3-projetfinal-Saintus-Jean-Oldor/"
+                        target="_blank"
+                      >
+                        <img
+                          src="./images/image-coworkers.jpg"
+                          class="d-block w-100"
+                          alt="image corworker"
+                        />
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="https://joslsinfo.github.io/tp3-projetfinal-Saintus-Jean-Oldor/"
+                        target="_blank"
+                      >
+                        <img
+                          src="./images/img-bureauvirtuel2.png"
+                          class="d-block w-100"
+                          alt="image corworker"
+                        />
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="https://joslsinfo.github.io/tp3-projetfinal-Saintus-Jean-Oldor/"
+                        target="_blank"
+                        ><img
+                          src="./images/img-salledereunion.png"
+                          class="d-block w-100"
+                          alt="image corworker"
+                        />
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="https://joslsinfo.github.io/tp3-projetfinal-Saintus-Jean-Oldor/"
+                        target="_blank"
+                      >
+                        <img
+                          src="./images/img13.JPG"
+                          class="d-block w-100"
+                          alt="image corworker"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <!-- ======================== -->
+            </div>
+          </div>
+        </section>
+      </section>
     </main>
 
     <footer>
-        <div class="colonne">
-            <h3>Projet en Javascript</h3>
-            <p>Développement d'une application pour la conversion de devise</p>
-            <p>
-                <a href="https://joslsinfo.github.io/projet-final-tech-prog-web-1/" target="_blank">Explorer ce
-                    projet</a>
-            </p>
+      <div class="colonne">
+        <h3>Projet en Javascript</h3>
+        <p>Développement d'une application pour la conversion de devise</p>
+        <br />
+        <p>
+          <a
+            href="https://gitlab.com/josaintus/projetfinalsaintus-jean-oldorgr1041.git"
+            target="_blank"
+            >Voir le contenu de ce projet</a
+          >
+         
+        </p>
+        <p>
+     
+          <a
+            href="https://joslsinfo.github.io/projet-final-tech-prog-web-1/"
+            target="_blank"
+            >Visiter ce site pour explorer ce projet</a
+          >
+        </p>
+      </div>
+      <br />
+      <div class="colonne">
+        <h3>Projet en React</h3>
+        <p>
+          Création d'une application avec la librairie react <br />
+          pour aller chercher de l'info sur star wars via l'API
+        </p>
 
+        <p>
+          <a
+            href="https://github.com/joslsinfo/projet2-react-swapi-app.git/"
+            target="_blank"
+            >Voir le contenu de ce projet</a
+          >
+          <p>
+            <a
+            href="https://joslsinfo.github.io/projet2-react-swapi-app/#"
+            target="_blank"
+            >Visiter cette application créée en react</a
+          >
+          </p>
+       
+         
+        </p>
+      </div>
+      <div class="colonne">
+        <h3>Projet en PHP et MySQL</h3>
+        <p>
+          Réalisation d'un projet de l'insfrastructure web <br />sur la
+          manipulation de la base de données MySQL avec le langage PHP
+        </p>
+        <p>
+          <a
+            href="https://github.com/joslsinfo/projet-final-infrastructure-web-Saintus-Jean-Oldor-GR1041.git"
+            target="_blank"
+          >
+            Accéder au contenu de ce projet
+          </a>
+        </p>
+        <p>
+          <a href="https://josaintus.com/" target="_blank">
+            Visiter ce site web pour visualiser ce projet
+          </a>
+        </p>
+      </div>
+      <div class="colonne" id="contacts">
+        <h3>Mes coordonnées</h3>
+        <p><i class="fa-solid fa-location-dot"></i> Laval, QC, CA</p>
+        <p>
+          <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:josaintus@gmail.com"> josaintus@gmail.com</a>
+        </p>
+        <p>
+          <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:joslsinfo2022@gmail.com"> joslsinfo2022@gmail.com</a>
+        </p>
+        <p>
+          <i class="fa-solid fa-globe"></i>
+          <a href="https://www.josaintus.com" target="_blank">
+            www.josaintus.com</a
+          >
+        </p>
 
-        </div>
-        <div class="colonne">
-            <h3>Projet en React</h3>
-            <p>Création d'une application avec la librairie react <br> pour aller chercher de l'information sur star
-                wars via l'API </p>
-            <p>
-                <a href="https://github.com/joslsinfo/projet2-react-swapi-app.git" target="_blank">Voir le contenu de ce
-                    projet</a>
-            </p>
-
-        </div>
-        <div class="colonne">
-            <h3>Projet en PHP et MySQL</h3>
-            <p>Réalisation d'un projet de l'insfrastructure web <br>sur la manipulation de la base de données MySQL avec le
-                langage PHP
-            </p>
-            <p>
-                <a href="https://github.com/joslsinfo/projet-final-infrastructure-web-Saintus-Jean-Oldor-GR1041.git"
-                    target="_blank">Accéder au contenu de ce projet</a>
-            </p>
-            <a href="https://josaintus.com/" target="_blank">Visiter ce site web pour visualiser ce projet</a>
-
-        </div>
-        <div class="colonne" id="contacts">
-            <h3>Mes coordonnées</h3>
-            <p><i class="fa-solid fa-location-dot"></i> Laval, QC, CA</p>
-            <p><i class="fa-solid fa-envelope"></i> <a href="mailto:josaintus@gmail.com"> josaintus@gmail.com</a></p>
-            <p><i class="fa-solid fa-envelope"></i> <a href="mailto:joslsinfo2022@gmail.com">
-                    joslsinfo2022@gmail.com</a></p>
-            <p><i class="fa-solid fa-globe"></i> <a href="https://www.josaintus.com" target="_blank">
-                    www.josaintus.com</a></p>
-
-
-            <p><i class="fa-solid fa-phone"></i> <a href="tel:+15147302860"> +(514)-730-2860</a></p>
-
-        </div>
-        <div class="colonne" id="contacts">
-            <h3>Mes réseaux sociaux</h3>
-            <p> <a href="https://www.facebook.com/Jean Saintus" target="_blank"> <i class="fa-brands fa-facebook"></i> facebook / jeansaintus</a>
-            </p>
-            <p> <a href="https://linkedin.com/in/jean-oldor-saintus" target="_blank"> <i class="fa-brands fa-facebook"></i> linkedin.com/in/jean-oldor-saintus</a>
-            </p>
-            <p><a href="https://www.instagram.com" target="_blank"> <i class="fa-brands fa-instagram"></i> instagram</a>
-            </p>
-            <p><a href="https://www.twitter.com" target="_blank"> <i class="fa-brands fa-twitter"></i> twitter / @josaintus2011</a></p>
-            <p><a href="https://www.youtube.com" target="_blank"> <i class="fa-brands fa-youtube"></i> youtube</a></p>
-
-        </div>
-
-
-        
+        <p>
+          <i class="fa-solid fa-phone"></i>
+          <a href="tel:+15147302860"> +(514)-730-2860</a>
+        </p>
+      </div>
+      <div class="colonne" id="contacts">
+        <h3>Mes réseaux sociaux</h3>
+        <p>
+          <a href="https://www.facebook.com/Jean Saintus" target="_blank">
+            <i class="fa-brands fa-facebook"></i> facebook / jeansaintus</a
+          >
+        </p>
+        <p>
+          <a href="https://linkedin.com/in/jean-oldor-saintus" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+            linkedin.com/in/jean-oldor-saintus</a
+          >
+        </p>
+        <p>
+          <a href="https://www.instagram.com" target="_blank">
+            <i class="fa-brands fa-instagram"></i> instagram</a
+          >
+        </p>
+        <p>
+          <a href="https://www.twitter.com" target="_blank">
+            <i class="fa-brands fa-twitter"></i> twitter / @josaintus2011</a
+          >
+        </p>
+        <p>
+          <a href="https://www.youtube.com" target="_blank">
+            <i class="fa-brands fa-youtube"></i> youtube</a
+          >
+        </p>
+      </div>
     </footer>
 
     <script src="js/scripts.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
-    </script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
